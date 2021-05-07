@@ -1,0 +1,22 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span class="titulo">{{titulo}}</span>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-raised-button  class="optionButton"  
+      (click)="gotoEjemplo($event, 'rxjs')">Inicio</button>
+    <button mat-raised-button  class="optionButton"  
+      (click)="gotoEjemplo($event, 'rxjs/introduccion')">Introducción</button>
+  </mat-toolbar-row>
+  <mat-toolbar-row>
+    <button mat-raised-button  class="optionButton"  
+      (click)="gotoEjemplo($event, 'rxjs/subject')">Subject</button>
+    <button mat-raised-button  class="optionButton"  
+      (click)="gotoEjemplo($event, 'rxjs/operators')">Operators</button>
+    <button mat-raised-button color="warn" class="optionButton"  
+      (click)="gotoEjemplo($event, 'rxjs/ejercicios')">Ejercicios</button>
+
+</mat-toolbar-row>
+</mat-toolbar>
+
+<router-outlet></router-outlet>

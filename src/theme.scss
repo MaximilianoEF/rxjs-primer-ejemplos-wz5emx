@@ -1,0 +1,27 @@
+/* Add application styles & imports to this file! */
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+p {
+  font-family: Lato;
+}
+
+.titulo {
+  font-weight: 800;
+}
+
+mat-card {
+  margin: 10px;
+}
+
+.mat-card-avatar {
+    height: 90px !important;
+    width: 90px !important;
+}
+
+.material-icons{
+  vertical-align: middle;
+}
+
+.material-icons{
+  user-select: none;
+}

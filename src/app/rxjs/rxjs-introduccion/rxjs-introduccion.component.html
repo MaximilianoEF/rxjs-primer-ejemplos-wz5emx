@@ -1,0 +1,16 @@
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="observablesEjemploBasico($event)" >observablesEjemploBasico</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="creationOperators($event)" >creationOperators</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="transformationOperators($event)" >transformationOperators</button>
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="subscriptionMerge($event)" >subscriptionMerge</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="observablesCompared($event)" >Observables.vs.Promise</button>
+
+
+<app-debug [inputStream$]='debug$' ></app-debug>

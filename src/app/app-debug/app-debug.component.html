@@ -1,0 +1,7 @@
+<button mat-raised-button color="warning"
+  (click)="resetOutput(e)">Borrar consola</button>
+  <hr>
+<ng-container *ngFor="let token of outputStream">
+  <p class="token"
+     [innerHTML]="token" ></p>
+</ng-container>

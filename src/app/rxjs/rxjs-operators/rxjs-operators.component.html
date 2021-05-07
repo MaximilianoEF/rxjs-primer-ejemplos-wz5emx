@@ -1,0 +1,24 @@
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="creationOperators($event)" >creation</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="zip($event)" >zip</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="transformationOperators($event)" >transformation</button>
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="groupBy($event)" >groupBy</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="test($event)" >testSplit</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="filter($event)" >filtering</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="combine($event)" >combine</button>
+
+<button mat-raised-button color="accent" class="examplebtn"
+        (click)="mergeMap($event)" >mergeMap</button>
+
+<app-debug [inputStream$]='debug$' ></app-debug>
